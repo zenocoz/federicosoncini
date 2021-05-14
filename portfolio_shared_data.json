@@ -43,11 +43,6 @@
 				"level": "95"
 			},
 			{
-				"name": "Redux",
-				"class": "devicon-redux-original",
-				"level": "95"
-			},
-			{
 				"name": "TypeScript",
 				"class": "devicon-typescript-plain",
 				"level": "90"
