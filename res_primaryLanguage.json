@@ -1,7 +1,7 @@
 {
 	"basic_info": {
 		"description_header": "Hi",
-		"description": "👋 I'm Orhan. I'm a life-long student. I'm working with newest web technologies like React and Node ⭐ I studied computer science at Ege University. After graduation I joined Strive School to become a Full Stack Developer ⭐ I enjoy being part of projects that require me to work outside of my comfort zone and helps to focus on architecture. My main concern is creating efficient, clean and sustainable structure for software projects. ",
+		"description": "👋 I'm Federico. I'm a life-long student. I'm working with newest web technologies like React and Node ⭐ I studied computer science at Ege University. After graduation I joined Strive School to become a Full Stack Developer ⭐ I enjoy being part of projects that require me to work outside of my comfort zone and helps to focus on architecture. My main concern is creating efficient, clean and sustainable structure for software projects. ",
 		"section_name": {
 			"about": "About me",
 			"projects": "Projects",
@@ -84,7 +84,9 @@
 			"company": "Strive School",
 			"title": "Full Stack Development",
 			"years": "09.2020 - 04.2021",
-			"mainTech": ["Education"],
+			"mainTech": [
+				"Education"
+			],
 			"technologies": [
 				"NodeJs",
 				"ReactJs",
@@ -102,7 +104,9 @@
 			"company": "Ege Univesity",
 			"title": "Computer Science",
 			"years": "09.2015 - 07.2020",
-			"mainTech": ["Education"],
+			"mainTech": [
+				"Education"
+			],
 			"technologies": [
 				"Database Design",
 				"Hardware Design",
@@ -116,7 +120,9 @@
 			"company": "S4in",
 			"title": "Django Developer Intern",
 			"years": "06.2019 - 09.2019",
-			"mainTech": ["Python"],
+			"mainTech": [
+				"Python"
+			],
 			"technologies": [
 				"Python",
 				"Django",
