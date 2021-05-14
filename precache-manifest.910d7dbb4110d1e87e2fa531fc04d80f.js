@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1db148ddb22e1a190db9b3ad829d92a1",
+    "revision": "c228b851ce32edea32f5f38306d9747e",
     "url": "/federicosoncini/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/federicosoncini/static/css/2.d64471e2.chunk.css"
   },
   {
-    "revision": "5164f32e60979288c7b4",
-    "url": "/federicosoncini/static/css/main.cc1cfa94.chunk.css"
+    "revision": "3fa7d5ee6e0e4e1d0991",
+    "url": "/federicosoncini/static/css/main.cd369f61.chunk.css"
   },
   {
     "revision": "d2e5367efbfb99a137a6",
@@ -20,15 +20,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/federicosoncini/static/js/2.6ab4cf48.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5164f32e60979288c7b4",
-    "url": "/federicosoncini/static/js/main.733a8522.chunk.js"
+    "revision": "3fa7d5ee6e0e4e1d0991",
+    "url": "/federicosoncini/static/js/main.405b5696.chunk.js"
   },
   {
     "revision": "249ccc6199907e200657",
     "url": "/federicosoncini/static/js/runtime-main.0dbbbedc.js"
   },
   {
-    "revision": "c6bb37146dc5f75a8352640bec12fff6",
-    "url": "/federicosoncini/static/media/myProfile.c6bb3714.jpeg"
+    "revision": "e0ecdc28c483d2d90f0f57216ef4e8e2",
+    "url": "/federicosoncini/static/media/myProfile.e0ecdc28.jpeg"
   }
 ]);
