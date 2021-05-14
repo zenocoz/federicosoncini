@@ -1,0 +1,89 @@
+{
+	"basic_info": {
+		"name": "Orhan Örs",
+		"titles": [
+			"Full-Stack Developer",
+			"React Developer",
+			"Backend Developer"
+		],
+		"social": [
+			{
+				"name": "github",
+				"url": "https://github.com/orhanors",
+				"class": "fab fa-github"
+			},
+			{
+				"name": "linkedin",
+				"url": "https://www.linkedin.com/in/orhanors/",
+				"class": "fab fa-linkedin"
+			},
+			{
+				"name": "medium",
+				"url": "https://orhanors.medium.com/",
+				"class": "fab fa-medium"
+			},
+			{
+				"name": "docker hub",
+				"url": "https://hub.docker.com/u/orhanors",
+				"class": "fab fa-docker"
+			}
+		],
+		"image": "myProfile.jpeg"
+	},
+	"skills": {
+		"icons": [
+			{
+				"name": "NodeJs",
+				"class": "fab fa-node",
+				"level": "95"
+			},
+			{
+				"name": "ReactJs",
+				"class": "fab fa-react",
+				"level": "95"
+			},
+			{
+				"name": "TypeScript",
+				"class": "devicon-typescript-plain",
+				"level": "90"
+			},
+
+			{
+				"name": "JavaScript",
+				"class": "devicon-javascript-plain",
+				"level": "70"
+			},
+			{
+				"name": "MongoDB",
+				"class": "fas fa-database",
+				"level": "70"
+			},
+			{
+				"name": "Docker",
+				"class": "fab fa-docker",
+				"level": "70"
+			},
+			{
+				"name": "HTML 5",
+				"class": "devicon-html5-plain",
+				"level": "95"
+			},
+			{
+				"name": "CSS 3",
+				"class": "devicon-css3-plain",
+				"level": "95"
+			},
+
+			{
+				"name": "Sass",
+				"class": "devicon-sass-original",
+				"level": "75"
+			},
+			{
+				"name": "Bootstrap",
+				"class": "devicon-bootstrap-plain",
+				"level": "85"
+			}
+		]
+	}
+}

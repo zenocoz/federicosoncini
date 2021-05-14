@@ -1,0 +1,41 @@
+import redis from "redis"
+import { promisify } from "util"
+import { LOGGER } from "../utils"
+
+export default class RedisService {
+    constructor(config) {
+        this.port = config.port
+        this.host = config.host
+        this.client = this.__init()
+    }
+
+    redisPromisified = () => ({ get: promisify(this.client.get).bind(this.client), set: promisify(this.client.set).bind(this.client) })
+
+    __init = () => {
+        const client = redis.createClient({
+            port: this.port,
+            host: this.host,
+	    //other config like retrystrategy
+        })
+        client.on("error", (e) => {
+            LOGGER.error(`Error in redis: ${e}`)
+        })
+        // here you do other client.on depending on what you need
+        return client
+    }
+}
+
+//Then in startup there will be for example
+
+const redis = new RedisService(CONFIG)
+const serviceThatNeedRedis = new MyService(redis)
+
+and then in MyService you will simply do 
+
+try{
+	await this.redis.get(blabla)
+
+}catch(e){}
+
+
+In this way redis is a singleton and the istance is unique across the app.
