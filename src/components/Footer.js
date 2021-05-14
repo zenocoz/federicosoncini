@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component } from "react"
 
 class Footer extends Component {
   render() {
@@ -10,8 +10,8 @@ class Footer extends Component {
               <i className={network.class}></i>
             </a>
           </span>
-        );
-      });
+        )
+      })
     }
 
     return (
@@ -27,12 +27,13 @@ class Footer extends Component {
                   ? this.props.sharedBasicInfo.name
                   : "???"}
               </small>
+              <small>federico.soncini@gmail.com</small>
             </div>
           </div>
         </div>
       </footer>
-    );
+    )
   }
 }
 
-export default Footer;
+export default Footer
