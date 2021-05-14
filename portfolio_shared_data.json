@@ -9,23 +9,13 @@
 		"social": [
 			{
 				"name": "github",
-				"url": "https://github.com/orhanors",
+				"url": "https://github.com/zenocoz",
 				"class": "fab fa-github"
 			},
 			{
 				"name": "linkedin",
-				"url": "https://www.linkedin.com/in/orhanors/",
+				"url": "https://www.linkedin.com/in/federicosoncini/",
 				"class": "fab fa-linkedin"
-			},
-			{
-				"name": "medium",
-				"url": "https://orhanors.medium.com/",
-				"class": "fab fa-medium"
-			},
-			{
-				"name": "docker hub",
-				"url": "https://hub.docker.com/u/orhanors",
-				"class": "fab fa-docker"
 			}
 		],
 		"image": "myProfile.jpeg"
