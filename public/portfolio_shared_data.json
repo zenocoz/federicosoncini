@@ -53,13 +53,18 @@
 				"level": "70"
 			},
 			{
-				"name": "MongoDB",
-				"class": "fas fa-database",
+				"name": "C++",
+				"class": "devicon-cplusplus-plain",
 				"level": "70"
 			},
 			{
-				"name": "Docker",
-				"class": "fab fa-docker",
+				"name": "C#",
+				"class": "devicon-csharp-plain",
+				"level": "70"
+			},
+			{
+				"name": "MongoDB",
+				"class": "fas fa-database",
 				"level": "70"
 			},
 			{
@@ -71,11 +76,6 @@
 				"name": "CSS 3",
 				"class": "devicon-css3-plain",
 				"level": "95"
-			},
-			{
-				"name": "Sass",
-				"class": "devicon-sass-original",
-				"level": "75"
 			},
 			{
 				"name": "Bootstrap",
