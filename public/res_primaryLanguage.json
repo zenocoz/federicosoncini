@@ -19,7 +19,7 @@
 				"images/portfolio/letterboxd/film-club.PNG",
 				"images/portfolio/letterboxd/watched-by-you.PNG"
 			],
-			"url": "https://vercel.com/zenocoz/letterboxdfilmclub",
+			"url": "https://letterboxdfilmclub.vercel.app/",
 			"video": "https://www.loom.com/embed/b46de6e7f7ee4fdda97cf72f5f0b088a",
 			"technologies": [
 				{
