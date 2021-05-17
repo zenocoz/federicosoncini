@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/federicosoncini/static/css/main.cd369f61.chunk.css",
-    "main.js": "/federicosoncini/static/js/main.7dce5f05.chunk.js",
-    "main.js.map": "/federicosoncini/static/js/main.7dce5f05.chunk.js.map",
+    "main.js": "/federicosoncini/static/js/main.7faf7d6d.chunk.js",
+    "main.js.map": "/federicosoncini/static/js/main.7faf7d6d.chunk.js.map",
     "runtime-main.js": "/federicosoncini/static/js/runtime-main.0dbbbedc.js",
     "runtime-main.js.map": "/federicosoncini/static/js/runtime-main.0dbbbedc.js.map",
     "static/css/2.d64471e2.chunk.css": "/federicosoncini/static/css/2.d64471e2.chunk.css",
     "static/js/2.6ab4cf48.chunk.js": "/federicosoncini/static/js/2.6ab4cf48.chunk.js",
     "static/js/2.6ab4cf48.chunk.js.map": "/federicosoncini/static/js/2.6ab4cf48.chunk.js.map",
     "index.html": "/federicosoncini/index.html",
-    "precache-manifest.6164295ebe7294a0322688e3eec4d7fb.js": "/federicosoncini/precache-manifest.6164295ebe7294a0322688e3eec4d7fb.js",
+    "precache-manifest.b367fbf5c25d11e77d1c0cee1c4dc37a.js": "/federicosoncini/precache-manifest.b367fbf5c25d11e77d1c0cee1c4dc37a.js",
     "service-worker.js": "/federicosoncini/service-worker.js",
     "static/css/2.d64471e2.chunk.css.map": "/federicosoncini/static/css/2.d64471e2.chunk.css.map",
     "static/css/main.cd369f61.chunk.css.map": "/federicosoncini/static/css/main.cd369f61.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d64471e2.chunk.css",
     "static/js/2.6ab4cf48.chunk.js",
     "static/css/main.cd369f61.chunk.css",
-    "static/js/main.7dce5f05.chunk.js"
+    "static/js/main.7faf7d6d.chunk.js"
   ]
 }
