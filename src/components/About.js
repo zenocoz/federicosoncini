@@ -40,7 +40,7 @@ class About extends Component {
                     />
                   </a>
                   <div className="my-2">
-                    <h3>Federico Soncini</h3>
+                    <h3>Federico Sonciniiiii</h3>
                     <p>Full-stack developer</p>
                   </div>
                   <Icon
