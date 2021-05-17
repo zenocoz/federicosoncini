@@ -38,6 +38,15 @@ class Projects extends Component {
                       position: "relative",
                     }}
                   />
+
+                  <iframe
+                    src="https://www.loom.com/embed/b46de6e7f7ee4fdda97cf72f5f0b088a"
+                    frameborder="0"
+                    webkitallowfullscreen
+                    mozallowfullscreen
+                    allowfullscreen
+                    style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"
+                  ></iframe>
                   <span className="project-date">{projects.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
