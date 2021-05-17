@@ -1,23 +1,23 @@
-import React, { Component } from "react";
-import ProjectDetailsModal from "./ProjectDetailsModal";
+import React, { Component } from "react"
+import ProjectDetailsModal from "./ProjectDetailsModal"
 
 class Projects extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       deps: {},
       detailsModalShow: false,
-    };
+    }
   }
 
   render() {
     let detailsModalShow = (data) => {
-      this.setState({ detailsModalShow: true, deps: data });
-    };
+      this.setState({ detailsModalShow: true, deps: data })
+    }
 
-    let detailsModalClose = () => this.setState({ detailsModalShow: false });
+    let detailsModalClose = () => this.setState({ detailsModalShow: false })
     if (this.props.resumeProjects && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.projects;
+      var sectionName = this.props.resumeBasicInfo.section_name.projects
       var projects = this.props.resumeProjects.map(function (projects) {
         return (
           <div
@@ -32,8 +32,23 @@ class Projects extends Component {
                     src={projects.images[0]}
                     alt="projectImages"
                     height="230"
-                    style={{marginBottom: 0, paddingBottom: 0, position: 'relative'}}
+                    style={{
+                      marginBottom: 0,
+                      paddingBottom: 0,
+                      position: "relative",
+                    }}
                   />
+                  <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                    <iframe
+                      src={projects.video}
+                      frameborder="0"
+                      webkitallowfullscreen
+                      mozallowfullscreen
+                      allowfullscreen
+                      style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"
+                    ></iframe>
+                  </div>
+
                   <span className="project-date">{projects.startDate}</span>
                   <br />
                   <p className="project-title-settings mt-3">
@@ -43,8 +58,8 @@ class Projects extends Component {
               </div>
             </span>
           </div>
-        );
-      });
+        )
+      })
     }
 
     return (
@@ -63,8 +78,8 @@ class Projects extends Component {
           />
         </div>
       </section>
-    );
+    )
   }
 }
 
-export default Projects;
+export default Projects
