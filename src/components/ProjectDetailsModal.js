@@ -102,7 +102,7 @@ class ProjectDetailsModal extends Component {
               }}
             >
               <iframe
-                src="https://www.loom.com/embed/b46de6e7f7ee4fdda97cf72f5f0b088a"
+                src={video}
                 frameborder="0"
                 webkitallowfullscreen
                 mozallowfullscreen
@@ -117,7 +117,7 @@ class ProjectDetailsModal extends Component {
               ></iframe>
             </div>
 
-            <div className="col-md-12 text-center">
+            <div className="col-md-12 text-center mt-3">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
           </div>

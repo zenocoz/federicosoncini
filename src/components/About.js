@@ -34,7 +34,7 @@ class About extends Component {
                       alt="Avatar placeholder"
                       style={{
                         borderRadius: "10%",
-                        marginLeft: "18%",
+                        marginLeft: "25%",
                         border: "2px solid #E9D5A1",
                       }}
                     />
