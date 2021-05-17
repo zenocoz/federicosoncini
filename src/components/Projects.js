@@ -38,7 +38,7 @@ class Projects extends Component {
                       position: "relative",
                     }}
                   />
-                  <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+                  {/* <div style="position: relative; padding-bottom: 56.25%; height: 0;">
                     <iframe
                       src={projects.video}
                       frameborder="0"
@@ -47,7 +47,7 @@ class Projects extends Component {
                       allowfullscreen
                       style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"
                     ></iframe>
-                  </div>
+                  </div> */}
 
                   <span className="project-date">{projects.startDate}</span>
                   <br />
