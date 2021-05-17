@@ -45,7 +45,7 @@ class Projects extends Component {
                     webkitallowfullscreen
                     mozallowfullscreen
                     allowfullscreen
-                    style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"
+                    // style="position: absolute; top: 0; left: 0; width: 75%; height: 75%;"
                   ></iframe>
                   <span className="project-date">{projects.startDate}</span>
                   <br />
