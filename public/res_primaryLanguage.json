@@ -1,7 +1,7 @@
 {
 	"basic_info": {
 		"description_header": "Hello,",
-		"description": "I'm Federico, a full-stack developer based in Berlin, specialized in the Mern stack (Mongo, Express, React, Node). I am also interested in low-level programming (C++) and game programming.. ",
+		"description": "I'm Federico, a full-stack developer based in Berlin, specialized in the Mern stack (Mongo, Express, React, Node). I am also interested in low-level programming (C++) and game programming. ",
 		"section_name": {
 			"about": "About me",
 			"projects": "Projects",
@@ -20,6 +20,7 @@
 				"images/portfolio/letterboxd/watched-by-you.PNG"
 			],
 			"url": "https://vercel.com/zenocoz/letterboxdfilmclub",
+			"video": "https://www.loom.com/embed/b46de6e7f7ee4fdda97cf72f5f0b088a",
 			"technologies": [
 				{
 					"class": "devicon-react-plain",

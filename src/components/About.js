@@ -42,12 +42,6 @@ class About extends Component {
                   <div className="my-2">
                     <h3>Federico Soncini</h3>
                     <p>Full-stack developer</p>
-                    <a
-                      href="https://zenocoz.github.io/projects/"
-                      target="_blank"
-                    >
-                      Projects
-                    </a>
                   </div>
                   <Icon
                     icon={nodejsIcon}

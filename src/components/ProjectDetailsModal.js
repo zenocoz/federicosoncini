@@ -1,17 +1,17 @@
-import React, { Component } from "react";
-import { Modal } from "react-bootstrap";
-import AwesomeSlider from "react-awesome-slider";
-import AwesomeSliderStyles from "../scss/light-slider.scss";
-import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
-import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import React, { Component } from "react"
+import { Modal } from "react-bootstrap"
+import AwesomeSlider from "react-awesome-slider"
+import AwesomeSliderStyles from "../scss/light-slider.scss"
+import AwesomeSliderStyles2 from "../scss/dark-slider.scss"
+import "react-awesome-slider/dist/custom-animations/scale-out-animation.css"
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
-      const technologies = this.props.data.technologies;
-      const images = this.props.data.images;
-      var title = this.props.data.title;
-      var description = this.props.data.description;
-      var url = this.props.data.url;
+      const technologies = this.props.data.technologies
+      const images = this.props.data.images
+      var title = this.props.data.title
+      var description = this.props.data.description
+      var url = this.props.data.url
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -26,12 +26,12 @@ class ProjectDetailsModal extends Component {
                 </div>
               </span>
             </li>
-          );
-        });
+          )
+        })
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
-          });
+            return <div key={i} data-src={elem} />
+          })
         }
       }
     }
@@ -94,14 +94,24 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description">{description}</p>
+            <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+              <iframe
+                src="https://www.loom.com/embed/b46de6e7f7ee4fdda97cf72f5f0b088a"
+                frameborder="0"
+                webkitallowfullscreen
+                mozallowfullscreen
+                allowfullscreen
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+              ></iframe>
+            </div>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto">{tech}</ul>
             </div>
           </div>
         </div>
       </Modal>
-    );
+    )
   }
 }
 
-export default ProjectDetailsModal;
+export default ProjectDetailsModal
