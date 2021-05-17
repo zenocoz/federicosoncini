@@ -33,7 +33,7 @@ class About extends Component {
                       src={profilePic}
                       alt="Avatar placeholder"
                       style={{
-                        borderRadius: "50%",
+                        borderRadius: "10%",
                         marginLeft: "18%",
                         border: "2px solid #E9D5A1",
                       }}
@@ -42,6 +42,12 @@ class About extends Component {
                   <div className="my-2">
                     <h3>Federico Soncini</h3>
                     <p>Full-stack developer</p>
+                    <a
+                      href="https://zenocoz.github.io/projects/"
+                      target="_blank"
+                    >
+                      Projects
+                    </a>
                   </div>
                   <Icon
                     icon={nodejsIcon}
